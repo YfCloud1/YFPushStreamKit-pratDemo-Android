@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/layout_pre_live_setting"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main"
+     android:visibility="gone"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="@dimen/dp_120"
+        android:layout_marginLeft="@dimen/dp_24"
+        android:layout_marginRight="@dimen/dp_24"
+        android:layout_marginTop="@dimen/dp_32"
+
+        android:background="@drawable/shezhi_bg"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_marginRight="@dimen/dp_20"
+            android:layout_marginTop="@dimen/dp_32"
+            android:layout_weight="1"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tb_screen_setting"
+                android:layout_alignBottom="@+id/tb_screen_setting"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:gravity="center"
+                android:text="@string/popup_live_screen"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/sp_16"/>
+
+            <ToggleButton
+                android:id="@+id/tb_screen_setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@null"
+                android:checked="false"
+                android:drawableRight="@drawable/ic_btn_switch"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textOff="@string/popup_live_portrait"
+                android:textOn="@string/popup_live_landscape"
+                android:textSize="@dimen/sp_16"/>
+        </RelativeLayout>
+
+        <include layout="@layout/horizon_line"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/popup_live_source_url"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/sp_16"/>
+
+            <EditText
+                android:id="@+id/et_live_url"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textUri"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/sp_16"
+                android:theme="@style/BlueEditText"
+                />
+
+            <TextView
+                android:id="@+id/tv_hint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_2"
+                android:text="@string/hint_url"
+                android:textColor="@color/colorHintGray"
+                android:textSize="@dimen/sp_14"/>
+
+        </LinearLayout>
+
+        <include layout="@layout/horizon_line"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_marginRight="@dimen/dp_20"
+            android:layout_weight="1"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tv_weak_net"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text="@string/menu_weak_net_live"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/sp_16"/>
+
+            <ImageButton
+                android:id="@+id/ib_udp_tip"
+                android:layout_width="@dimen/dp_28"
+                android:layout_height="@dimen/dp_28"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/tv_weak_net"
+                android:layout_toRightOf="@+id/tv_weak_net"
+                android:background="@drawable/select_tip"
+                android:paddingLeft="@dimen/dp_4"/>
+
+            <ToggleButton
+                android:id="@+id/tb_udp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:checked="false"
+                android:drawableRight="@drawable/zhibo_select"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textOff="@string/udp_off"
+                android:textOn="@string/udp_no_fec"
+                android:textSize="@dimen/sp_16"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_marginRight="@dimen/dp_20"
+            android:layout_weight="1"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tv_hevc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text="@string/menu_hevc_setting"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/sp_16"/>
+
+            <ToggleButton
+                android:id="@+id/tb_hevc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:checked="false"
+                android:drawableRight="@drawable/zhibo_select"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textOff="@string/avc"
+                android:textOn="@string/hevc"
+                android:textSize="@dimen/sp_16"/>
+        </RelativeLayout>
+        <include layout="@layout/horizon_line"/>
+
+
+        <RelativeLayout
+            android:id="@+id/layout_setting"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            >
+
+            <ImageButton
+                android:id="@+id/ib_setting"
+                android:layout_width="@dimen/dp_28"
+                android:layout_height="@dimen/dp_28"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/ic_btn_set_n"/>
+
+            <LinearLayout
+                android:id="@+id/layout_set_bitrate_fps"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/ib_setting"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                >
+
+                <EditText
+                    android:id="@+id/et_bitrate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/dp_16"
+                    android:layout_marginStart="@dimen/dp_16"
+                    android:gravity="center"
+                    android:hint="@string/hint_bitrate"
+                    android:inputType="number"
+                    android:maxLength="5"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@color/colorHintGray"
+                    android:textSize="@dimen/sp_15"
+                    android:theme="@style/BlueEditText"/>
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/unit_bitrate"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/sp_15"/>
+
+                <EditText
+                    android:id="@+id/et_frame_rate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="31dp"
+                    android:layout_marginStart="31dp"
+                    android:gravity="center"
+                    android:hint="@string/hint_frame_rate"
+                    android:inputType="number"
+                    android:maxLength="2"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@color/colorHintGray"
+                    android:textSize="@dimen/sp_15"
+                    android:theme="@style/BlueEditText"/>
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/et_frame_rate"
+                    android:layout_toRightOf="@+id/et_frame_rate"
+                    android:gravity="center_vertical"
+                    android:text="@string/unit_frame_rate"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/sp_15"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <include
+            android:id="@+id/line_setting"
+            layout="@layout/horizon_line"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.6"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn_start_live"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/select_start_live"
+                android:text="@string/start_live"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/sp_16"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/dp_36">
+
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="@dimen/dp_56"
+            android:layout_height="@dimen/dp_56"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/select_close_set"/>
+    </RelativeLayout>
+</RelativeLayout>

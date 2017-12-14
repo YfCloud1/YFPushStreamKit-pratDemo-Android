@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#00000000"
+              android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/rg_beauty_level"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_20"
+        android:background="@null"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_beauty_level_0"
+            android:layout_width="@dimen/dp_48"
+            android:layout_height="@dimen/dp_48"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:background="@drawable/select_radio_button_beauty"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/beauty_level_0"
+            android:textColor="@android:color/white"/>
+
+        <RadioButton
+            android:id="@+id/rb_beauty_level_1"
+            android:layout_width="@dimen/dp_48"
+            android:layout_height="@dimen/dp_48"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:background="@drawable/select_radio_button_beauty"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:text="@string/beauty_level_1"
+            android:textColor="@android:color/white"/>
+
+        <RadioButton
+            android:id="@+id/rb_beauty_level_2"
+            android:layout_width="@dimen/dp_48"
+            android:layout_height="@dimen/dp_48"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:background="@drawable/select_radio_button_beauty"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:text="@string/beauty_level_2"
+            android:textColor="@android:color/white"/>
+
+        <RadioButton
+            android:id="@+id/rb_beauty_level_3"
+            android:layout_width="@dimen/dp_48"
+            android:layout_height="@dimen/dp_48"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:background="@drawable/select_radio_button_beauty"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:text="@string/beauty_level_3"
+            android:textColor="@android:color/white"/>
+
+        <RadioButton
+            android:id="@+id/rb_beauty_level_4"
+            android:layout_width="@dimen/dp_48"
+            android:layout_height="@dimen/dp_48"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:background="@drawable/select_radio_button_beauty"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:text="@string/beauty_level_4"
+            android:textColor="@android:color/white"/>
+
+    </RadioGroup>
+
+    <include layout="@layout/horizon_line_light_blue"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/dp_4"
+        android:drawableLeft="@drawable/bt_meiyan"
+        android:drawablePadding="@dimen/dp_8"
+        android:gravity="center"
+        android:padding="@dimen/dp_8"
+        android:text="@string/menu_beauty"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/sp_16"/>
+</LinearLayout>

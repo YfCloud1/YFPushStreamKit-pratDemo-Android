@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_splash"
+    tools:context=".ui.activity.SplashActivity">
+    <!--<RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/select_radio_button"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/popup_live_screen"
+            android:textColor="@android:color/black"/>
+
+        <RadioButton android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/select_radio_button"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:text="@string/popup_live_screen"
+            android:textColor="@android:color/black"/>
+
+        <RadioButton android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/select_radio_button"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:text="@string/popup_live_screen"
+            android:textColor="@android:color/black"/>
+
+    </RadioGroup>-->
+
+</RelativeLayout>

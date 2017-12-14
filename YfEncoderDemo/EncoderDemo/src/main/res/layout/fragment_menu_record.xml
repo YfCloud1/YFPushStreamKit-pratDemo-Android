@@ -1,0 +1,126 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/rl_menu_one"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dp_4"
+                android:layout_marginRight="@dimen/dp_4"
+                tools:context=".ui.fragment.LiveMenuOneFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/dp_8">
+
+        <Button
+            android:id="@+id/btn_beauty"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dp_12"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawableTop="@drawable/select_beauty"
+            android:text="@string/menu_beauty"
+            android:textColor="@color/colorWhite"
+            />
+
+        <Button
+            android:id="@+id/btn_face_u"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dp_12"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawableTop="@drawable/select_face_u"
+            android:text="@string/menu_face_u"
+            android:textColor="@color/colorWhite"
+            />
+
+        <Button
+            android:id="@+id/btn_logo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dp_12"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawableTop="@drawable/select_logo"
+            android:text="@string/menu_logo"
+            android:textColor="@color/colorWhite"
+            />
+
+        <ToggleButton
+            android:id="@+id/tb_audio_play"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawableTop="@drawable/select_audio_play"
+            android:textColor="@color/colorWhite"
+            android:textOff="@string/menu_audio_play_off"
+            android:textOn="@string/menu_audio_play_on"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/dp_8">
+
+        <ToggleButton
+            android:id="@+id/tb_denoise"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dp_12"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawableTop="@drawable/select_denoise"
+            android:textColor="@color/colorWhite"
+            android:textOff="@string/menu_denoise_off"
+            android:textOn="@string/menu_denoise_on"/>
+
+        <ToggleButton
+            android:id="@+id/tb_flip_camera"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dp_12"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawableTop="@drawable/select_flip"
+            android:textColor="@color/colorWhite"
+            android:textOff="@string/menu_flip_off"
+            android:textOn="@string/menu_flip_on"/>
+
+        <ToggleButton
+            android:id="@+id/tb_mute"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/dp_12"
+            android:layout_marginRight="@dimen/dp_12"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawableTop="@drawable/select_mute"
+            android:textColor="@color/colorWhite"
+            android:textOff="@string/menu_mute_off"
+            android:textOn="@string/menu_mute_on"
+            />
+
+        <ToggleButton
+            android:id="@+id/tb_log"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawableTop="@drawable/select_log"
+            android:textColor="@color/colorWhite"
+            android:textOff="@string/menu_log_off"
+            android:textOn="@string/menu_log_on"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

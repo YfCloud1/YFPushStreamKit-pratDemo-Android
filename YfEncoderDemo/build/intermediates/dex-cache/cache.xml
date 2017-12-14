@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\yunfan\.android\build-cache\d422ba2ee72b5fa5a94a1ea24106d762c7b9eb9b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="56b24cbd303368a3dc7a0cf1efbeb4f59b9ad742">
+        <dex dex="D:\yunfangit\YfEncoderDemo-Android\YfEncoderDemo\EncoderDemo\build\intermediates\pre-dexed\debug\classes_ccdac2c1ba3f2bc4142b3eae76a2aa4e4150dc59.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yunfan\.android\build-cache\ed4d679421252ff96485d235d9cddb637fe6bfa7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f0fb870af9f7d44e697b54129e304a782a5e547d">
+        <dex dex="D:\yunfangit\YfEncoderDemo-Android\YfEncoderDemo\EncoderDemo\build\intermediates\pre-dexed\debug\classes_720de3c94f222f2637eb6c4c1cf1de097e92f5e9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yunfan\.android\build-cache\2d082270382e9d3589824897c32488095adac098\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="408c24f86df8b8b4734f9a0daa08a61510151214">
+        <dex dex="D:\yunfangit\YfEncoderDemo-Android\YfEncoderDemo\EncoderDemo\build\intermediates\pre-dexed\debug\classes_dd985b9c703d748d80e5bf8de8cde1e4abfb44ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yunfan\.android\build-cache\b0affa238c051cf3604477cfd98251c34bda24e9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a490e56578422a8bffa4c1c9711bdb120f0bcef8">
+        <dex dex="D:\yunfangit\YfEncoderDemo-Android\YfEncoderDemo\EncoderDemo\build\intermediates\pre-dexed\debug\classes_167bbe306ae52f7b09edf4e1bb887f13cfbe4074.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yunfan\.android\build-cache\b0affa238c051cf3604477cfd98251c34bda24e9\output\jars\libs\YfAuth.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5d9eafa9536f0e3aca23968b745bbd3ea82b036a">
+        <dex dex="D:\yunfangit\YfEncoderDemo-Android\YfEncoderDemo\EncoderDemo\build\intermediates\pre-dexed\debug\YfAuth_e6a61e28c03f0ba0cb530eddd77194de47149530.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yunfan\.android\build-cache\2d082270382e9d3589824897c32488095adac098\output\jars\libs\YfK2Pagent.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d3d385bdd77cb7b9f7931181c9e266ac90718390">
+        <dex dex="D:\yunfangit\YfEncoderDemo-Android\YfEncoderDemo\EncoderDemo\build\intermediates\pre-dexed\debug\YfK2Pagent_3a4c84aed514b2dbf2a6a2231a27d4ac822d2b15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yunfan\.android\build-cache\ed4d679421252ff96485d235d9cddb637fe6bfa7\output\jars\libs\YfEncoderKit.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2bd8b411078958be62605347ba7df8d8d38e8f1e">
+        <dex dex="D:\yunfangit\YfEncoderDemo-Android\YfEncoderDemo\EncoderDemo\build\intermediates\pre-dexed\debug\YfEncoderKit_fedbdddf959f09118fbea32b6e7b04f666371433.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yunfan\.android\build-cache\ed4d679421252ff96485d235d9cddb637fe6bfa7\output\jars\libs\YfFilters.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c2b44b1c469121a453c71ea59069a0d6a29ae06a">
+        <dex dex="D:\yunfangit\YfEncoderDemo-Android\YfEncoderDemo\EncoderDemo\build\intermediates\pre-dexed\debug\YfFilters_285fab9ccf8d1a2b31c618612189384582210359.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yunfan\.android\build-cache\c365a8b287ff2ebd50260f23266090f2c7141f41\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="80fe9bd30109f8d8aebbb7e48ae9bec7da82aebe">
+        <dex dex="D:\yunfangit\YfEncoderDemo-Android\YfEncoderDemo\EncoderDemo\build\intermediates\pre-dexed\debug\classes_07b72aba4f6d831c4bd5d20d54cfbd5929aad969.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yunfan\.android\build-cache\eb753c1e47e223413cf0dc3d5b8d41b3d841f0cd\output\jars\libs\nama.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b0e27cccbba160c7ee9b615e0e770d8b021404ed">
+        <dex dex="D:\yunfangit\YfEncoderDemo-Android\YfEncoderDemo\EncoderDemo\build\intermediates\pre-dexed\debug\nama_358ae4ee712bfff3fb4b33970e441241d3b2684c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yunfan\.android\build-cache\eb753c1e47e223413cf0dc3d5b8d41b3d841f0cd\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3c8cb999795684a0737061b4ebb37a93656a097e">
+        <dex dex="D:\yunfangit\YfEncoderDemo-Android\YfEncoderDemo\EncoderDemo\build\intermediates\pre-dexed\debug\classes_43cd9c83e3796d3e6dbae7a48d3fcd431b1945ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yunfan\.android\build-cache\0691e9e34000e5a6cf857b8fe7b600d560af67cd\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3c0791655f73647dac252ca4226a90a3ca6c4d57">
+        <dex dex="D:\yunfangit\YfEncoderDemo-Android\YfEncoderDemo\EncoderDemo\build\intermediates\pre-dexed\debug\classes_9d69153213501d3928c8d5dd4a2d5ef54f6702e5.jar" />
+    </item>
+
+</items>

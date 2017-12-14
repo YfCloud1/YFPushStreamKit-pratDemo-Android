@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/colorHalfDark"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/dp_12">
+
+        <EditText
+            android:id="@+id/et_bitrate"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dp_32"
+            android:layout_marginRight="@dimen/dp_16"
+            android:layout_weight="2"
+            android:background="@color/colorChooseBg"
+            android:hint="@string/hint_bitrate"
+            android:inputType="number"
+            android:maxLength="4"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/colorHintGray"/>
+
+        <Button
+            android:id="@+id/btn_finish"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dp_48"
+            android:layout_weight="1"
+            android:background="@drawable/select_start_live"
+            android:text="@string/finish"
+            android:textColor="@android:color/white"/>
+
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/rg_bitrate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dp_8"
+            android:gravity="center"
+            android:text="@string/suggest_bitrate"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/sp_16"/>
+
+        <RadioButton
+            android:id="@+id/rb_suggest_bitrate_1"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/select_radio_button"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:text="@string/bitrate_100"
+            android:textColor="@android:color/white"/>
+
+        <RadioButton
+            android:id="@+id/rb_suggest_bitrate_2"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/select_radio_button"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:text="@string/bitrate_200"
+            android:textColor="@android:color/white"/>
+
+        <RadioButton
+            android:id="@+id/rb_suggest_bitrate_3"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/select_radio_button"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:text="@string/bitrate_300"
+            android:textColor="@android:color/white"/>
+
+        <RadioButton
+            android:id="@+id/rb_suggest_bitrate_4"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/select_radio_button"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:text="@string/bitrate_400"
+            android:textColor="@android:color/white"/>
+
+
+    </RadioGroup>
+
+    <include layout="@layout/horizon_line"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp_4">
+
+        <TextView
+            android:id="@+id/tv_weak_net"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="@dimen/dp_8"
+            android:drawableLeft="@drawable/bt_zishiying"
+            android:drawablePadding="@dimen/dp_8"
+            android:text="@string/menu_adaptive_bitrate"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/sp_16"/>
+
+        <ImageButton
+            android:id="@+id/ib_bitrate_tip"
+            android:layout_width="@dimen/dp_28"
+            android:layout_height="@dimen/dp_28"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_toEndOf="@+id/tv_weak_net"
+            android:layout_toRightOf="@+id/tv_weak_net"
+            android:background="@drawable/select_tip"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

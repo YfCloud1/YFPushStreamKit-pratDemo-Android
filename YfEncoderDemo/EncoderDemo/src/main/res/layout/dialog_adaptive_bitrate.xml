@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/ll_adaptive_bitrate"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/colorDark"
+              android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/ib_close_dialog"
+        android:layout_width="@dimen/dp_36"
+        android:layout_height="@dimen/dp_36"
+        android:layout_gravity="right"
+        android:background="@drawable/select_close_live"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp_16"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_20"
+        android:text="@string/adaptive_bitrate_tip_title"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/sp_16"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp_12"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_20">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:drawableLeft="@drawable/shape_blue_dot"
+            android:drawablePadding="@dimen/dp_4"
+            android:text="@string/adaptive_bitrate_tip_1"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/sp_14"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:drawableLeft="@drawable/shape_blue_dot"
+            android:drawablePadding="@dimen/dp_4"
+            android:text="@string/adaptive_bitrate_tip_2"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/sp_14"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_20">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:drawableLeft="@drawable/shape_blue_dot"
+            android:drawablePadding="@dimen/dp_4"
+            android:text="@string/adaptive_bitrate_tip_3"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/sp_14"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:drawableLeft="@drawable/shape_blue_dot"
+            android:drawablePadding="@dimen/dp_4"
+            android:text="@string/adaptive_bitrate_tip_4"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/sp_14"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

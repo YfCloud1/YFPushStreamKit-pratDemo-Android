@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dp_4"
+                android:layout_marginRight="@dimen/dp_4"
+                tools:context=".ui.fragment.LiveMenuOneFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/dp_8">
+
+
+        <ToggleButton
+            android:id="@+id/tb_mute"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/dp_12"
+            android:layout_marginRight="@dimen/dp_12"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawableTop="@drawable/select_mute"
+            android:textColor="@color/colorWhite"
+            android:textOff="@string/menu_mute_off"
+            android:textOn="@string/menu_mute_on"
+            />
+
+        <ToggleButton
+            android:id="@+id/tb_log"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/dp_12"
+            android:layout_marginRight="@dimen/dp_12"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawableTop="@drawable/select_log"
+            android:textColor="@color/colorWhite"
+            android:textOff="@string/menu_log_off"
+            android:textOn="@string/menu_log_on"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/dp_12"
+            android:layout_marginRight="@dimen/dp_12"
+            android:layout_weight="1"
+            android:background="@null"
+            android:clickable="false"
+            android:drawableTop="@drawable/ic_action_button"
+            android:text="@string/menu_h264"
+            android:textColor="@color/colorWhite"
+            android:visibility="invisible"
+            />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:src="@drawable/ic_action_button"
+            android:visibility="invisible"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_btn_gn_jingxiang_op_h" android:state_checked="true"
+          android:state_focused="false"/>
+    <item android:drawable="@drawable/ic_btn_gn_jingxiang_op_n" android:state_checked="true"
+          android:state_focused="true"/>
+    <item android:drawable="@drawable/ic_btn_gn_jingxiagn_cl_n" android:state_checked="false"
+          android:state_focused="false"/>
+    <item android:drawable="@drawable/ic_btn_gn_jingxiang_cl_n" android:state_checked="false"
+          android:state_focused="true"/>
+</selector>

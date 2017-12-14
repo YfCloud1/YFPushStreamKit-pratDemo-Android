@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="url">
+        <item>http://ww4.sinaimg.cn/large/006uZZy8jw1faic1xjab4j30ci08cjrv.jpg</item>
+        <item>http://ww4.sinaimg.cn/large/006uZZy8jw1faic21363tj30ci08ct96.jpg</item>
+        <item>http://ww4.sinaimg.cn/large/006uZZy8jw1faic259ohaj30ci08c74r.jpg</item>
+        <item>http://ww4.sinaimg.cn/large/006uZZy8jw1faic2b16zuj30ci08cwf4.jpg</item>
+        <item>http://ww4.sinaimg.cn/large/006uZZy8jw1faic2e7vsaj30ci08cglz.jpg</item>
+    </array>
+    <!--private static final String[] m_item_names = {"tiara.mp3", "item0208.mp3", "einstein.mp3", "YellowEar.mp3", "PrincessCrown.mp3",
+            "Mood.mp3", "Deer.mp3", "BeagleDog.mp3", "item0501.mp3", "ColorCrown.mp3", "item0210.mp3", "HappyRabbi.mp3",
+            "item0204.mp3", "hartshorn.mp3"
+    };-->
+    <array name="faceu">
+        <item>tiara.mp3</item>
+        <item>item0208.mp3</item>
+        <item>einstein.mp3</item>
+        <!--<item>YellowEar.mp3</item>-->
+        <item>PrincessCrown.mp3</item>
+        <item>Mood.mp3</item>
+        <item>Deer.mp3</item>
+        <item>BeagleDog.mp3</item>
+        <item>item0501.mp3</item>
+        <item>ColorCrown.mp3</item>
+        <item>item0210.mp3</item>
+        <item>HappyRabbi.mp3</item>
+        <item>item0204.mp3</item>
+        <item>hartshorn.mp3</item>
+    </array>
+</resources>
